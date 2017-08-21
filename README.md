@@ -1,2 +1,2 @@
 # downpu
-This is a project for NEPU NMC 
+This is a project for NCEPU NMC
