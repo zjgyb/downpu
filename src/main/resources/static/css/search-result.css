@@ -1,0 +1,111 @@
+body{
+	width: 100%;
+}
+.logo{
+	float: left;
+	position: relative;
+}
+.logo .logo-font{
+	font-size: 40px;
+	font-weight: bold;
+	color: #7f7f7f;
+	letter-spacing: 5px;
+}
+.logo-font-color{
+	color: rgba(0,255,0,0.6);
+}
+.input-group input,.input-group button{
+	height: 50px;
+}
+.sub-form{
+	padding-top: 5px;
+	padding-left: 10px;
+}
+.input-group{
+	width: 650px;
+}
+.form-control-width{
+	width: 420px;
+	font-size: 18px;
+}
+.page{
+    list-style: none;
+}
+.page>li{
+    float: left;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.page .pageItem{
+    border: solid thin #DDDDDD;
+    margin: 5px;
+}
+.page .pageItemActive{
+    border: solid thin #0099FF;
+    margin: 5px;
+    background-color: #0099FF;
+    color:white;
+}
+.page .pageItem:hover{
+    border: solid thin #0099FF;
+    background-color: #0099FF;
+    color:white;
+}
+.page .pageItemDisable{
+    border: solid thin #DDDDDD;
+    margin: 5px;
+    background-color: #DDDDDD;
+}
+.search-distance{
+	padding-right: 610px;
+}
+#demoContent {
+	list-style: none;
+}
+#demoContent li{
+	background-color: rgba(238,238,238,0.2);
+	height: 130px;
+	margin-bottom: 5px;
+	max-height: 200px;
+}
+#demoContent li:first-child{
+	height: 190px;
+}
+#demoContent li:first-child::before{
+	content: "共搜索到与[]有关的应用个";
+	font-size: 15px;
+	float: left;
+	width: 100%;
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+#demoContent li a{
+	font-size: 20px;
+	cursor: pointer;
+	text-decoration: none;
+}
+#demoContent li a h3{
+	margin-top: 5px;
+	color: black;
+	font-weight: bold;
+	padding-left: 105px;
+}
+.search-font{
+	padding-top: 5px;
+	display: inline-block;
+	color: black;
+	padding-left: 25px;
+}
+.content-img{
+	width: 80px;
+	height: 80px;
+	display: inline-block;
+	border-radius: 8px;
+}
+.data{
+	margin-top: 70px;
+}
+#demoContent li button{
+	width: 55px;
+	height: 35px;
+}
