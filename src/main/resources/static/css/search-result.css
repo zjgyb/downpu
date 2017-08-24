@@ -10,6 +10,7 @@ body{
 	font-weight: bold;
 	color: #7f7f7f;
 	letter-spacing: 5px;
+	padding-left: 40px;
 }
 .logo-font-color{
 	color: rgba(0,255,0,0.6);
@@ -56,8 +57,11 @@ body{
     margin: 5px;
     background-color: #DDDDDD;
 }
+.container-height{
+	padding-top: 80px;
+}
 .search-distance{
-	padding-right: 610px;
+	padding-left: 40px;
 }
 #demoContent {
 	list-style: none;
