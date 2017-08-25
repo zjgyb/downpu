@@ -152,9 +152,9 @@ var options={
     "callBack":function(result){
     	     var cHtml="";
         for(var i=0;i<result.length;i++){
-            cHtml+="<li>"+"<img class=\"pull-left content-img\" src=\"../img/bg-"+result[i].list+".jpg\">"+
-            "<a>"+"<h3>"+ result[i].name+"</h3>"+
-            "<p class=\"search-font pull-left  text-justify\">"+result[i].material+"</p>"
+            cHtml+="<li>"+"<img class=\"pull-left content-img\" src=\"../img/bg-"+result[i].list+".jpg\">"
+            +"<a>"+"<h3>"+ result[i].name+"</h3>"
+            +"<p class=\"search-font pull-left  text-justify\">"+result[i].material+"</p>"
             +"<form role=\"role\" class=\"pull-right\">"+"<button class=\"btn btn-success pull-right\">"+"下载"+"</button>"+"<form>"
             +"<p class=\"data text-right\">"+result[i].data+"</p>"+"</a>"+"</li>";//处理数据
         }
