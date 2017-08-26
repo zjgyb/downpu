@@ -114,3 +114,6 @@ body{
 	width: 55px;
 	height: 35px;
 }
+.img-position{
+	position: static;
+}
