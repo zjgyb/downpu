@@ -1,6 +1,6 @@
 body{
+	min-width: 1500px;
 	width: 100%;
-	min-width: 1024px;
 }
 .logo{
 	float: left;
@@ -11,7 +11,6 @@ body{
 	font-weight: bold;
 	color: #7f7f7f;
 	letter-spacing: 5px;
-	padding-left: 40px;
 }
 .logo-font-color{
 	color: rgba(0,255,0,0.6);
@@ -58,11 +57,8 @@ body{
     margin: 5px;
     background-color: #DDDDDD;
 }
-.container-height{
-	padding-top: 80px;
-}
 .search-distance{
-	padding-left: 40px;
+	padding-right: 610px;
 }
 #demoContent {
 	list-style: none;
@@ -101,6 +97,9 @@ body{
 	color: black;
 	padding-left: 25px;
 }
+.container-left{
+	padding-left: 175px;
+}
 .content-img{
 	width: 80px;
 	height: 80px;
@@ -113,7 +112,4 @@ body{
 #demoContent li button{
 	width: 55px;
 	height: 35px;
-}
-.img-position{
-	position: static;
 }

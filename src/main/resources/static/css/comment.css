@@ -1,11 +1,10 @@
 body{
+	min-width: 1500px;
 	width: 100%;
-	min-width: 1024px;
 }
 .logo{
 	float: left;
 	position: relative;
-	padding-left: 115px;
 }
 .logo .logo-font{
 	font-size: 40px;
@@ -34,7 +33,7 @@ body{
 	max-width: 900px;
 	border: 2px solid #eee;
 	position: relative;
-	margin-top: 100px;
+	left: 80px;
 }
 .row{
 	display: inline-block;
